@@ -1,0 +1,24 @@
+body {
+  margin: 8px;
+  color: #000;
+  background: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+nav ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 24px; }
+nav a[aria-current="page"] { font-weight: bold; }
+main { max-width: 1100px; }
+p, li, td { line-height: 1.4; }
+li { margin-bottom: 6px; }
+.paper-list li { margin-bottom: 18px; }
+.paper-status { display: block; margin-top: 3px; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0 28px; }
+caption { text-align: left; font-size: 1.5em; font-weight: bold; margin: 16px 0 12px; }
+th, td { border: 1px solid #000; padding: 10px; text-align: left; vertical-align: top; }
+td p:first-child { margin-top: 0; }
+td p:last-child { margin-bottom: 0; }
+td ul { margin-top: 0; margin-bottom: 0; padding-left: 20px; }
+@media (max-width: 600px) {
+  th, td { padding: 6px; overflow-wrap: anywhere; }
+  nav ul { gap: 18px; }
+}
